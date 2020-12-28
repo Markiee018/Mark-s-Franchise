@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+@media (min-width: 992px) {
+    #card{
+       margin-top:20em;
+       text-align: center;
+
+    }
+    nav ul{
+        margin-left:35em;
+        font-size:1em;
+        font-weight: bold;
+       
+        
+    }
+    nav ul:hover{
+        color: black;
+        cursor:pointer;
+        
+    }
+    .form-group .header{
+        margin-right:11em;
+    }
+    .form-group .header p{
+        text-align: center;
+    }
+    .form-group{
+        margin-top:1em;
+        font-size: 1.1;
+        text-align: center;
+        color:black;
+        width: 30rem;
+        background:rgb(231, 224, 224);
+        padding: 2em;
+        border-radius: 1em;
+    }
+    .form-group input[type=text]{
+        text-align: center;
+        margin-top:.5em;
+        margin-bottom:.5em;
+        border-bottom: 2px solid black;
+     
+    }
+    .form-group input[type=email]{
+        text-align: center;
+        margin-top:.5em;
+        margin-bottom:.5em;
+        border-bottom: 2px solid black;
+    }
+    .form-group input[type=button]{
+        padding: 0.5em;
+        font-size: 1em;
+        margin-left:17em;
+        margin-top:1em;
+    }
+    .form-group input[type=password]{
+       
+        text-align: center;
+        margin-top:.5em;
+        margin-bottom:.5em;
+        border-bottom: 2px solid black;
+    }
+    .image{
+    
+        margin-left:40rem;
+        margin-top:-28em;
+        position:relative;
+    }
+   
+    .card-body input[type=text]{
+        width:50px;
+        height: 35px;
+        text-align: center;
+    }
+
+}
+.image{
+    margin-right:1em;
+    
+}
+.form-group input[type=button]{
+    padding: 0.5em;
+    font-size: 1em;
+    margin-left:17.2em;
+    margin-top:1em;
+    width:9em;
+}
+.form-group{
+    text-align: center;
+    color:black;
+    width: 30rem;
+    background:rgb(231, 224, 224);
+    padding: 2em;
+    border-radius: 1em;
+}
+.card{
+    padding:.5em;
+    margin-left:4em;
+    text-align: center;
+}
+.card-body input[type=text]{
+    width:50px;
+    height: 35px;
+    text-align: center;
+    border:none;
+}
+footer{
+    margin-top:1em;
+    text-align: center;
+    padding: 2em 0 2em;
+    background:rgb(211, 208, 208);
+}
